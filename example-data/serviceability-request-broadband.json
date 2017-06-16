@@ -1,0 +1,55 @@
+  {
+  "objectType": "serviceabilityRequest",
+  "id": "SRQ-CC-8698522025538-1542",
+  "status": "SUBMITTED",
+  "buyerId": "Comcast",
+  "sellerId": "Cox",
+  "projectId": "PRJ-CC-951474649727-6521",
+  "serviceSiteInformation": {
+    "id": "PSS-CC-8271521589615-9233",
+    "name": "Cox Site #2 - Green",
+    "description": "",
+    "siteCompanyName": "",
+    "customerName": "",
+    "additionalSiteInformation": "",
+    "objectType": "serviceSiteInformationRequest",
+    "siteAddressType": "FORMATTED_ADDRESS",
+    "siteAddress": {
+      "objectType": "formattedAddress",
+      "addressLine1": "2722 MAIN HWY",
+      "city": "BREAUX BRIDGE",
+      "stateOrProvince": "LA",
+      "country": "US",
+      "postCode": "70517"
+    },
+    "siteId": "BREAUXLA02",
+    "siteAlternateContact": "",
+    "enniLocation": null
+  },
+  "desiredResponseDate": "2017-07-01T12:00:00.333Z",
+  "serviceDetail": {
+    "objectType": "serviceDetailRequest",
+    "projectId": "PRJ-CC-951474649727-6521",
+    "projectServiceSiteListId": "PSSL-CC-1018521384412-4347",
+    "serviceCategory": "BROADBAND",
+    "serviceType": "INTERNET",
+    "serviceDetailItem": {
+      "objectType": "broadbandServiceDetailRequest",
+      "minUploadSpeed": {
+        "amount": 5,
+        "units": "Mbps"
+      },
+      "minDownloadSpeed": {
+        "amount": 50,
+        "units": "Mbps"
+      },
+      "pricingTerm": {
+        "amount": 36,
+        "units": "Months"
+      },
+      "activationDate": "2017-07-31T12:00:00.000Z",
+      "serviceCategory": "BROADBAND",
+      "serviceType": "INTERNET"
+    }
+  }
+}
