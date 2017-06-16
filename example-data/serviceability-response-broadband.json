@@ -1,0 +1,264 @@
+{
+  "id": "SRP-CX-99022414318-5005",
+  "link": {
+    "href": "/api/serviceability-responses/SRP-CX-99022414318-5005",
+    "rel": "self",
+    "method": "get",
+    "type": "json"
+  },
+  "objectType": "serviceabilityResponse",
+  "status": "RESPONSE_SUBMITTED",
+  "expirationDate": "2017-07-16T22:02:01.017Z",
+  "accepted": false,
+  "serviceabilityRequestId": "SRQ-CC-869852197355-4075",
+  "buyerId": "BuyerName",
+  "sellerId": "SellerName",
+  "serviceSiteInformation": {
+    "name": "SellerName Site #4 - Yellow",
+    "description": "",
+    "siteCompanyName": "",
+    "customerName": "",
+    "additionalSiteInformation": "",
+    "objectType": "serviceSiteInformationResponse",
+    "siteAddressType": "FORMATTED_ADDRESS",
+    "siteAddress": {
+      "objectType": "formattedAddress",
+      "addressLine1": "27221 MAIN HWY",
+      "city": "BREAUX BRIDGE",
+      "stateOrProvince": "LA",
+      "country": "US",
+      "postCode": "70517"
+    },
+    "siteId": "BREAUXLA03",
+    "siteAlternateContact": "",
+    "enniLocation": null,
+    "sellerSiteId": "SS-CX-307552381544873-2859"
+  },
+  "confidence": {
+    "color": "green",
+    "reason": "Service Available",
+    "objectType": "serviceabilityConfidence"
+  },
+  "serviceDetail": {
+    "objectType": "serviceDetailResponse",
+    "productSpec": {
+      "id": "PSPC-CX-282264412862-457",
+      "productName": "SellerName Business Internet 50.0/10.0",
+      "productSpecDetail": {
+        "objectType": "broadbandProductSpecDetail",
+        "type": "INTERNET",
+        "uploadSpeed": {
+          "amount": 10,
+          "units": "Mbps"
+        },
+        "downloadSpeed": {
+          "amount": 50,
+          "units": "Mbps"
+        },
+        "accessMedium": "COAX",
+        "accessTechnology": "DOCSIS_3.0",
+        "dhcpSupport": true,
+        "bridgeMode": true,
+        "staticIpAddresses": 20,
+        "publicIpV4Addresses": 1,
+        "publicIpV6Addresses": 0,
+        "createdAt": "2017-04-21T19:26:48.301Z",
+        "updatedAt": "2017-04-21T19:26:48.301Z",
+        "link": {
+          "href": "/api/broadband-product-specs/BPS-CX-526263116549-9319",
+          "rel": "self",
+          "method": "get",
+          "type": "json"
+        }
+      },
+      "objectType": "broadbandProductSpecDetail",
+      "quote": {
+        "objectType": "quote",
+        "pricing": [
+          {
+            "id": null,
+            "pricingTerm": {
+              "amount": 12,
+              "units": "Months",
+              "id": null
+            },
+            "objectType": "pricing",
+            "oneTimeCharges": [
+              {
+                "id": null,
+                "name": "SERVICE",
+                "price": {
+                  "amount": 99,
+                  "units": null,
+                  "id": null
+                },
+                "objectType": "oneTimeCharge"
+              }
+            ],
+            "recurringCharges": [
+              {
+                "id": null,
+                "name": "SERVICE",
+                "period": "MONTHLY",
+                "price": {
+                  "amount": 200,
+                  "units": null,
+                  "id": null
+                },
+                "objectType": "recurringCharge"
+              }
+            ],
+            "accepted": false
+          },
+          {
+            "id": null,
+            "pricingTerm": {
+              "amount": 24,
+              "units": "Months",
+              "id": null
+            },
+            "objectType": "pricing",
+            "oneTimeCharges": [
+              {
+                "id": null,
+                "name": "SERVICE",
+                "price": {
+                  "amount": 99,
+                  "units": null,
+                  "id": null
+                },
+                "objectType": "oneTimeCharge"
+              }
+            ],
+            "recurringCharges": [
+              {
+                "id": null,
+                "name": "SERVICE",
+                "period": "MONTHLY",
+                "price": {
+                  "amount": 200,
+                  "units": null,
+                  "id": null
+                },
+                "objectType": "recurringCharge"
+              }
+            ],
+            "accepted": false
+          },
+          {
+            "id": null,
+            "pricingTerm": {
+              "amount": 36,
+              "units": "Months",
+              "id": null
+            },
+            "objectType": "pricing",
+            "oneTimeCharges": [
+              {
+                "id": null,
+                "name": "SERVICE",
+                "price": {
+                  "amount": 99,
+                  "units": null,
+                  "id": null
+                },
+                "objectType": "oneTimeCharge"
+              }
+            ],
+            "recurringCharges": [
+              {
+                "id": null,
+                "name": "SERVICE",
+                "period": "MONTHLY",
+                "price": {
+                  "amount": 200,
+                  "units": null,
+                  "id": null
+                },
+                "objectType": "recurringCharge"
+              }
+            ],
+            "accepted": false
+          },
+          {
+            "id": null,
+            "pricingTerm": {
+              "amount": 48,
+              "units": "Months",
+              "id": null
+            },
+            "objectType": "pricing",
+            "oneTimeCharges": [
+              {
+                "id": null,
+                "name": "SERVICE",
+                "price": {
+                  "amount": 99,
+                  "units": null,
+                  "id": null
+                },
+                "objectType": "oneTimeCharge"
+              }
+            ],
+            "recurringCharges": [
+              {
+                "id": null,
+                "name": "SERVICE",
+                "period": "MONTHLY",
+                "price": {
+                  "amount": 200,
+                  "units": null,
+                  "id": null
+                },
+                "objectType": "recurringCharge"
+              }
+            ],
+            "accepted": false
+          },
+          {
+            "id": null,
+            "pricingTerm": {
+              "amount": 60,
+              "units": "Months",
+              "id": null
+            },
+            "objectType": "pricing",
+            "oneTimeCharges": [
+              {
+                "id": null,
+                "name": "SERVICE",
+                "price": {
+                  "amount": 99,
+                  "units": null,
+                  "id": null
+                },
+                "objectType": "oneTimeCharge"
+              }
+            ],
+            "recurringCharges": [
+              {
+                "id": null,
+                "name": "SERVICE",
+                "period": "MONTHLY",
+                "price": {
+                  "amount": 200,
+                  "units": null,
+                  "id": null
+                },
+                "objectType": "recurringCharge"
+              }
+            ],
+            "accepted": false
+          }
+        ]
+      },
+      "category": "BROADBAND"
+    }
+  },
+  "installationInterval": 60,
+  "buyerProjectId": "PRJ-CC-951474649727-6521",
+  "sellerProjectId": "PRJ-CC-951474649727-6521",
+  "siteListId": "PSSL-CC-1018521384412-4347",
+  "createdAt": "2017-06-16T22:02:01.019Z",
+  "updatedAt": "2017-06-16T22:03:04.601Z"
+}
