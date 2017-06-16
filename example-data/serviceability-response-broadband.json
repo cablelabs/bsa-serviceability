@@ -1,7 +1,7 @@
 {
-  "id": "SRP-CX-99022414318-5005",
+  "id": "SRP-XX-99022414318-5005",
   "link": {
-    "href": "/api/serviceability-responses/SRP-CX-99022414318-5005",
+    "href": "/api/serviceability-responses/SRP-XX-99022414318-5005",
     "rel": "self",
     "method": "get",
     "type": "json"
@@ -10,7 +10,7 @@
   "status": "RESPONSE_SUBMITTED",
   "expirationDate": "2017-07-16T22:02:01.017Z",
   "accepted": false,
-  "serviceabilityRequestId": "SRQ-CC-869852197355-4075",
+  "serviceabilityRequestId": "SRQ-YY-869852197355-4075",
   "buyerId": "BuyerName",
   "sellerId": "SellerName",
   "serviceSiteInformation": {
@@ -32,7 +32,7 @@
     "siteId": "BREAUXLA03",
     "siteAlternateContact": "",
     "enniLocation": null,
-    "sellerSiteId": "SS-CX-307552381544873-2859"
+    "sellerSiteId": "SS-XX-307552381544873-2859"
   },
   "confidence": {
     "color": "green",
@@ -42,7 +42,7 @@
   "serviceDetail": {
     "objectType": "serviceDetailResponse",
     "productSpec": {
-      "id": "PSPC-CX-282264412862-457",
+      "id": "PSPC-XX-282264412862-457",
       "productName": "SellerName Business Internet 50.0/10.0",
       "productSpecDetail": {
         "objectType": "broadbandProductSpecDetail",
@@ -65,7 +65,7 @@
         "createdAt": "2017-04-21T19:26:48.301Z",
         "updatedAt": "2017-04-21T19:26:48.301Z",
         "link": {
-          "href": "/api/broadband-product-specs/BPS-CX-526263116549-9319",
+          "href": "/api/broadband-product-specs/BPS-XX-526263116549-9319",
           "rel": "self",
           "method": "get",
           "type": "json"
@@ -256,9 +256,9 @@
     }
   },
   "installationInterval": 60,
-  "buyerProjectId": "PRJ-CC-951474649727-6521",
-  "sellerProjectId": "PRJ-CC-951474649727-6521",
-  "siteListId": "PSSL-CC-1018521384412-4347",
+  "buyerProjectId": "PRJ-YY-951474649727-6521",
+  "sellerProjectId": "PRJ-YY-951474649727-6521",
+  "siteListId": "PSSL-XX-1018521384412-4347",
   "createdAt": "2017-06-16T22:02:01.019Z",
   "updatedAt": "2017-06-16T22:03:04.601Z"
 }
