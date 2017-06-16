@@ -33,15 +33,15 @@ Status: 200 OK
   "items": [
     {
       "objectType": "serviceabilityResponse",
-      "id": "SRR-CC-13043135",
+      "id": "SRR-YY-13043135",
       "link": {
-        "href": "/api/serviceability-requests/SRR-CC-13043135"
+        "href": "/api/serviceability-requests/SRR-YY-13043135"
       },
       "status": "UNDER_REVIEW",
-      "projectId": "PRJ-CC-12345678",
-      "servicebilityRequestId": "SRQ-CC-13043135",
-      "buyerId": "Comcast",
-      "sellerId": "Cox",
+      "projectId": "PRJ-YY-12345678",
+      "servicebilityRequestId": "SRQ-YY-13043135",
+      "buyerId": "Buyer",
+      "sellerId": "Seller",
       "mpoeOnly": false,
       "expirationDate": "2016-09-26T12:00:00.333Z",
       "serviceSite" :{
@@ -70,7 +70,7 @@ Status: 200 OK
         "id": "PRD_GA_998",
         "productName": "Fast Access EPL",
         "productCode": "AE 1G",
-        "productType": "ACCESS_EPL",
+        "productType": "AYYESS_EPL",
         "productCategory": "ETHERNET",
         "productSpecDetail": {
           "objectType": "ethernetProductSpecDetail",
@@ -225,15 +225,15 @@ Status: 200 OK
 ``` JSON
 {
   "objectType": "serviceabilityResponse",
-  "id": "SRR-CC-726349",
+  "id": "SRR-YY-726349",
   "link": {
-    "href": "/api/serviceability-requests/SRR-CC-726349"
+    "href": "/api/serviceability-requests/SRR-YY-726349"
   },
   "status": "UNDER_REVIEW",
-  "projectId": "PRJ-CC-12345678",
-  "servicebilityRequestId": "SRQ-CC-726349",
-  "buyerId": "Comcast",
-  "sellerId": "Cox",
+  "projectId": "PRJ-YY-12345678",
+  "servicebilityRequestId": "SRQ-YY-726349",
+  "buyerId": "Buyer",
+  "sellerId": "Seller",
   "mpoeOnly": false,
   "expirationDate": "2016-09-26T12:00:00.333Z",
   "serviceSite" :{
@@ -350,10 +350,10 @@ Retrieve all Serviceability Responses.
 {
   "objectType": "serviceabilityResponse",
   "status": "UNDER_REVIEW",
-  "projectId": "PRJ-CC-12345678",
-  "servicebilityRequestId": "SRQ-CC-13043135",
-  "buyerId": "Comcast",
-  "sellerId": "Cox",
+  "projectId": "PRJ-YY-12345678",
+  "servicebilityRequestId": "SRQ-YY-13043135",
+  "buyerId": "Buyer",
+  "sellerId": "Seller",
   "mpoeOnly": false,
   "expirationDate": "2016-09-26T12:00:00.333Z",
   "serviceSite" :{
@@ -382,7 +382,7 @@ Retrieve all Serviceability Responses.
     "id": "PRD_GA_998",
     "productName": "Fast Access EPL",
     "productCode": "AE 1G",
-    "productType": "ACCESS_EPL",
+    "productType": "AYYESS_EPL",
     "productCategory": "ETHERNET",
     "productSpecDetail": {
       "objectType": "ethernetProductSpecDetail",
@@ -448,15 +448,15 @@ Status: 201 Created
 ``` JSON
 {
   "objectType": "serviceabilityResponse",
-  "id": "SRR-CC-726349",
+  "id": "SRR-YY-726349",
   "link": {
-    "href": "/api/serviceability-requests/SRR-CC-726349"
+    "href": "/api/serviceability-requests/SRR-YY-726349"
   },
   "status": "UNDER_REVIEW",
-  "projectId": "PRJ-CC-12345678",
-  "servicebilityRequestId": "SRQ-CC-13043135",
-  "buyerId": "Comcast",
-  "sellerId": "Cox",
+  "projectId": "PRJ-YY-12345678",
+  "servicebilityRequestId": "SRQ-YY-13043135",
+  "buyerId": "Buyer",
+  "sellerId": "Seller",
   "mpoeOnly": false,
   "expirationDate": "2016-09-26T12:00:00.333Z",
   "serviceSite" :{
@@ -485,7 +485,7 @@ Status: 201 Created
     "id": "PRD_GA_998",
     "productName": "Fast Access EPL",
     "productCode": "AE 1G",
-    "productType": "ACCESS_EPL",
+    "productType": "AYYESS_EPL",
     "productCategory": "ETHERNET",
     "productSpecDetail": {
       "objectType": "ethernetProductSpecDetail",
@@ -558,10 +558,10 @@ Update a Serviceability Request by providing a full replacement.
 {
   "objectType": "serviceabilityResponse",
   "status": "UNDER_REVIEW",
-  "projectId": "PRJ-CC-12345678",
-  "servicebilityRequestId": "SRQ-CC-13043135",
-  "buyerId": "Comcast",
-  "sellerId": "Cox",
+  "projectId": "PRJ-YY-12345678",
+  "servicebilityRequestId": "SRQ-YY-13043135",
+  "buyerId": "Buyer",
+  "sellerId": "Seller",
   "mpoeOnly": false,
   "expirationDate": "2016-09-26T12:00:00.333Z",
   "serviceSite" :{
@@ -590,7 +590,7 @@ Update a Serviceability Request by providing a full replacement.
     "id": "PRD_GA_998",
     "productName": "Fast Access EPL",
     "productCode": "AE 1G",
-    "productType": "ACCESS_EPL",
+    "productType": "AYYESS_EPL",
     "productCategory": "ETHERNET",
     "productSpecDetail": {
       "objectType": "ethernetProductSpecDetail",
@@ -656,15 +656,15 @@ Status: 200 OK
 ``` JSON
 {
   "objectType": "serviceabilityResponse",
-  "id": "SRR-CC-726349",
+  "id": "SRR-YY-726349",
   "link": {
-    "href": "/api/serviceability-requests/SRR-CC-726349"
+    "href": "/api/serviceability-requests/SRR-YY-726349"
   },
   "status": "UNDER_REVIEW",
-  "projectId": "PRJ-CC-12345678",
-  "servicebilityRequestId": "SRQ-CC-13043135",
-  "buyerId": "Comcast",
-  "sellerId": "Cox",
+  "projectId": "PRJ-YY-12345678",
+  "servicebilityRequestId": "SRQ-YY-13043135",
+  "buyerId": "Buyer",
+  "sellerId": "Seller",
   "mpoeOnly": false,
   "expirationDate": "2016-09-26T12:00:00.333Z",
   "serviceSite" :{
@@ -693,7 +693,7 @@ Status: 200 OK
     "id": "PRD_GA_998",
     "productName": "Fast Access EPL",
     "productCode": "AE 1G",
-    "productType": "ACCESS_EPL",
+    "productType": "AYYESS_EPL",
     "productCategory": "ETHERNET",
     "productSpecDetail": {
       "objectType": "ethernetProductSpecDetail",
@@ -766,10 +766,10 @@ Update a Serviceability Request.
 {
   "objectType": "serviceabilityResponse",
   "status": "UNDER_REVIEW",
-  "projectId": "PRJ-CC-12345678",
-  "servicebilityRequestId": "SRQ-CC-13043135",
-  "buyerId": "Comcast",
-  "sellerId": "Cox",
+  "projectId": "PRJ-YY-12345678",
+  "servicebilityRequestId": "SRQ-YY-13043135",
+  "buyerId": "Buyer",
+  "sellerId": "Seller",
   "mpoeOnly": false,
   "expirationDate": "2016-09-26T12:00:00.333Z",
   "serviceSite" :{
@@ -798,7 +798,7 @@ Update a Serviceability Request.
     "id": "PRD_GA_998",
     "productName": "Fast Access EPL",
     "productCode": "AE 1G",
-    "productType": "ACCESS_EPL",
+    "productType": "AYYESS_EPL",
     "productCategory": "ETHERNET",
     "productSpecDetail": {
       "objectType": "ethernetProductSpecDetail",
@@ -864,15 +864,15 @@ Status: 200 OK
 ``` JSON
 {
   "objectType": "serviceabilityResponse",
-  "id": "SRR-CC-726349",
+  "id": "SRR-YY-726349",
   "link": {
-    "href": "/api/serviceability-requests/SRR-CC-726349"
+    "href": "/api/serviceability-requests/SRR-YY-726349"
   },
   "status": "UNDER_REVIEW",
-  "projectId": "PRJ-CC-12345678",
-  "servicebilityRequestId": "SRQ-CC-13043135",
-  "buyerId": "Comcast",
-  "sellerId": "Cox",
+  "projectId": "PRJ-YY-12345678",
+  "servicebilityRequestId": "SRQ-YY-13043135",
+  "buyerId": "Buyer",
+  "sellerId": "Seller",
   "mpoeOnly": false,
   "expirationDate": "2016-09-26T12:00:00.333Z",
   "serviceSite" :{
@@ -901,7 +901,7 @@ Status: 200 OK
     "id": "PRD_GA_998",
     "productName": "Fast Access EPL",
     "productCode": "AE 1G",
-    "productType": "ACCESS_EPL",
+    "productType": "AYYESS_EPL",
     "productCategory": "ETHERNET",
     "productSpecDetail": {
       "objectType": "ethernetProductSpecDetail",

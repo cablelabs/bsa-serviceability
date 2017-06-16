@@ -29,16 +29,16 @@ Status: 200 OK
   "items": [
     {
       "objectType": "serviceabilityRequest",
-      "id": "SRQ-CC-13043135",
+      "id": "SRQ-YY-13043135",
       "link": {
-        "href": "/api/serviceability-requests/SRQ-CC-13043135"
+        "href": "/api/serviceability-requests/SRQ-YY-13043135"
       },
-      "buyerId": "Comcast",
-      "sellerId": "Cox",
+      "buyerId": "Buyer",
+      "sellerId": "Seller",
       "status": "SUBMITTED",
-      "projectId": "PRJ-CC-12345678",
+      "projectId": "PRJ-YY-12345678",
       "pricingMethod": "CONTRACT",
-      "pricingReference": "CC-MES-0192",
+      "pricingReference": "YY-MES-0192",
       "serviceSite" : {
         "objectType": "serviceSiteInformation",
         "siteAddressType": "FORMATTED_ADDRESS",
@@ -68,7 +68,7 @@ Status: 200 OK
       "serviceDetail": {
         "objectType": "ethernetServiceDetail",
         "serviceCategory": "ETHERNET",
-        "serviceType": "ACCESS_EPL",
+        "serviceType": "AYYESS_EPL",
         "bandwidth": {
           "objectType": "informationRateQuantity",
           "amount": 100,
@@ -82,7 +82,7 @@ Status: 200 OK
         "interfaceType": "OPTICAL",
         "accessMedium": "FIBER",
         "newEnniRequired": false,
-        "buyerEnniId": "CC-ENNI-12345678",
+        "buyerEnniId": "YY-ENNI-12345678",
         "classOfService": "HIGH",
         "pricingTerm": "24",
         "desiredActivationDate": "2016-10-26T12:00:00.333Z"
@@ -103,16 +103,16 @@ Status: 200 OK
 ``` JSON
 {
   "objectType": "serviceabilityRequest",
-  "id": "SRQ-CC-13043135",
+  "id": "SRQ-YY-13043135",
   "link": {
-    "href": "/api/serviceability-requests/SRQ-CC-13043135"
+    "href": "/api/serviceability-requests/SRQ-YY-13043135"
   },
-  "buyerId": "Comcast",
-  "sellerId": "Cox",
+  "buyerId": "Buyer",
+  "sellerId": "Seller",
   "status": "SUBMITTED",
-  "projectId": "PRJ-CC-12345678",
+  "projectId": "PRJ-YY-12345678",
   "pricingMethod": "CONTRACT",
-  "pricingReference": "CC-MES-0192",
+  "pricingReference": "YY-MES-0192",
   "serviceSite" : {
     "objectType": "serviceSiteInformation",
     "siteAddressType": "FORMATTED_ADDRESS",
@@ -142,7 +142,7 @@ Status: 200 OK
   "serviceDetail": {
     "objectType": "ethernetServiceDetail",
     "serviceCategory": "ETHERNET",
-    "serviceType": "ACCESS_EPL",
+    "serviceType": "AYYESS_EPL",
     "bandwidth": {
       "objectType": "informationRateQuantity",
       "amount": 100,
@@ -156,7 +156,7 @@ Status: 200 OK
     "interfaceType": "OPTICAL",
     "accessMedium": "FIBER",
     "newEnniRequired": false,
-    "buyerEnniId": "CC-ENNI-12345678",
+    "buyerEnniId": "YY-ENNI-12345678",
     "classOfService": "HIGH",
     "pricingTerm": "24",
     "desiredActivationDate": "2016-10-26T12:00:00.333Z"
@@ -175,11 +175,11 @@ POST /serviceability-requests
 ```JSON
 {
   "objectType": "serviceabilityRequest-create-update",
-  "buyerId": "Comcast",
-  "sellerId": "Cox",
-  "projectId": "PRJ-CC-12345678",
+  "buyerId": "Buyer",
+  "sellerId": "Seller",
+  "projectId": "PRJ-YY-12345678",
   "pricingMethod": "CONTRACT",
-  "pricingReference": "CC-MES-0192",
+  "pricingReference": "YY-MES-0192",
   "serviceSite" : {
     "objectType": "serviceSiteInformation",
     "siteAddressType": "FORMATTED_ADDRESS",
@@ -209,7 +209,7 @@ POST /serviceability-requests
   "serviceDetail": {
     "objectType": "ethernetServiceDetail",
     "serviceCategory": "ETHERNET",
-    "serviceType": "ACCESS_EPL",
+    "serviceType": "AYYESS_EPL",
     "bandwidth": {
       "objectType": "informationRateQuantity",
       "amount": 100,
@@ -223,7 +223,7 @@ POST /serviceability-requests
     "interfaceType": "OPTICAL",
     "accessMedium": "FIBER",
     "newEnniRequired": false,
-    "buyerEnniId": "CC-ENNI-12345678",
+    "buyerEnniId": "YY-ENNI-12345678",
     "classOfService": "HIGH",
     "pricingTerm": "24",
     "desiredActivationDate": "2016-10-26T12:00:00.333Z"
@@ -237,16 +237,16 @@ Status: 201 Created
 ```JSON
 {
   "objectType": "serviceabilityRequest",
-  "id": "SRQ-CC-13043135",
+  "id": "SRQ-YY-13043135",
   "link": {
-    "href": "/api/serviceability-requests/SRQ-CC-13043135"
+    "href": "/api/serviceability-requests/SRQ-YY-13043135"
   },
-  "buyerId": "Comcast",
-  "sellerId": "Cox",
+  "buyerId": "Buyer",
+  "sellerId": "Seller",
   "status": "SUBMITTED",
-  "projectId": "PRJ-CC-12345678",
+  "projectId": "PRJ-YY-12345678",
   "pricingMethod": "CONTRACT",
-  "pricingReference": "CC-MES-0192",
+  "pricingReference": "YY-MES-0192",
   "serviceSite" : {
     "objectType": "serviceSiteInformation",
     "siteAddressType": "FORMATTED_ADDRESS",
@@ -276,7 +276,7 @@ Status: 201 Created
   "serviceDetail": {
     "objectType": "ethernetServiceDetail",
     "serviceCategory": "ETHERNET",
-    "serviceType": "ACCESS_EPL",
+    "serviceType": "AYYESS_EPL",
     "bandwidth": {
       "objectType": "informationRateQuantity",
       "amount": 100,
@@ -290,7 +290,7 @@ Status: 201 Created
     "interfaceType": "OPTICAL",
     "accessMedium": "FIBER",
     "newEnniRequired": false,
-    "buyerEnniId": "CC-ENNI-12345678",
+    "buyerEnniId": "YY-ENNI-12345678",
     "classOfService": "HIGH",
     "pricingTerm": "24",
     "desiredActivationDate": "2016-10-26T12:00:00.333Z"
@@ -301,7 +301,7 @@ Status: 201 Created
 ### Update serviceability request
 
 ```
-PUT /serviceability-requests/SRQ-CC-13043135
+PUT /serviceability-requests/SRQ-YY-13043135
 ```
 
 **Example**
@@ -309,11 +309,11 @@ PUT /serviceability-requests/SRQ-CC-13043135
 ```JSON
 {
   "objectType": "serviceabilityRequest-create-update",
-  "buyerId": "Comcast",
-  "sellerId": "Cox",
-  "projectId": "PRJ-CC-12345678",
+  "buyerId": "Buyer",
+  "sellerId": "Seller",
+  "projectId": "PRJ-YY-12345678",
   "pricingMethod": "CONTRACT",
-  "pricingReference": "CC-MES-0192",
+  "pricingReference": "YY-MES-0192",
   "serviceSite" : {
     "objectType": "serviceSiteInformation",
     "siteAddressType": "FORMATTED_ADDRESS",
@@ -343,7 +343,7 @@ PUT /serviceability-requests/SRQ-CC-13043135
   "serviceDetail": {
     "objectType": "ethernetServiceDetail",
     "serviceCategory": "ETHERNET",
-    "serviceType": "ACCESS_EPL",
+    "serviceType": "AYYESS_EPL",
     "bandwidth": {
       "objectType": "informationRateQuantity",
       "amount": 100,
@@ -357,7 +357,7 @@ PUT /serviceability-requests/SRQ-CC-13043135
     "interfaceType": "OPTICAL",
     "accessMedium": "FIBER",
     "newEnniRequired": false,
-    "buyerEnniId": "CC-ENNI-12345678",
+    "buyerEnniId": "YY-ENNI-12345678",
     "classOfService": "HIGH",
     "pricingTerm": "24",
     "desiredActivationDate": "2016-10-26T12:00:00.333Z"
@@ -371,16 +371,16 @@ Status: 200 OK
 ```JSON
 {
   "objectType": "serviceabilityRequest",
-  "id": "SRQ-CC-13043135",
+  "id": "SRQ-YY-13043135",
   "link": {
-    "href": "/api/serviceability-requests/SRQ-CC-13043135"
+    "href": "/api/serviceability-requests/SRQ-YY-13043135"
   },
-  "buyerId": "Comcast",
-  "sellerId": "Cox",
+  "buyerId": "Buyer",
+  "sellerId": "Seller",
   "status": "SUBMITTED",
-  "projectId": "PRJ-CC-12345678",
+  "projectId": "PRJ-YY-12345678",
   "pricingMethod": "CONTRACT",
-  "pricingReference": "CC-MES-0192",
+  "pricingReference": "YY-MES-0192",
   "serviceSite" : {
     "objectType": "serviceSiteInformation",
     "siteAddressType": "FORMATTED_ADDRESS",
@@ -410,7 +410,7 @@ Status: 200 OK
   "serviceDetail": {
     "objectType": "ethernetServiceDetail",
     "serviceCategory": "ETHERNET",
-    "serviceType": "ACCESS_EPL",
+    "serviceType": "AYYESS_EPL",
     "bandwidth": {
       "objectType": "informationRateQuantity",
       "amount": 100,
@@ -424,7 +424,7 @@ Status: 200 OK
     "interfaceType": "OPTICAL",
     "accessMedium": "FIBER",
     "newEnniRequired": false,
-    "buyerEnniId": "CC-ENNI-12345678",
+    "buyerEnniId": "YY-ENNI-12345678",
     "classOfService": "HIGH",
     "pricingTerm": "24",
     "desiredActivationDate": "2016-10-26T12:00:00.333Z"
@@ -435,7 +435,7 @@ Status: 200 OK
 ### Cancel serviceability request
 
 ```
-POST /serviceability-requests/SRQ-CC-13043135/cancel
+POST /serviceability-requests/SRQ-YY-13043135/cancel
 ```
 
 **Response**
@@ -445,10 +445,9 @@ Status: 200 OK
 ### Delete serviceability request
 
 ```
-DELETE /serviceability-requests/SRQ-CC-13043135/
+DELETE /serviceability-requests/SRQ-YY-13043135/
 ```
 
 **Response**
 
 Status: 200 OK
-
