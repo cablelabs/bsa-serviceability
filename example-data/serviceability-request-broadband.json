@@ -1,13 +1,13 @@
-  {
+{
   "objectType": "serviceabilityRequest",
   "id": "SRQ-CC-8698522025538-1542",
   "status": "SUBMITTED",
-  "buyerId": "Comcast",
-  "sellerId": "Cox",
+  "buyerId": "BuyerName",
+  "sellerId": "SellerName",
   "projectId": "PRJ-CC-951474649727-6521",
   "serviceSiteInformation": {
     "id": "PSS-CC-8271521589615-9233",
-    "name": "Cox Site #2 - Green",
+    "name": "SellerName Site #2 - Green",
     "description": "",
     "siteCompanyName": "",
     "customerName": "",
