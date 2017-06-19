@@ -16,10 +16,8 @@
       "description": "The type of the object, pricing."
     },
     "pricingTerm": {
-      "type": "integer",
-      "description": "The length of the service contract in months.",
-      "minimum": 0,
-      "maximum": 999
+      "$ref": "quantity.json#",
+      "description": "The length of the service contract in months."
     },
     "oneTimeCharges": {
       "type": "array",

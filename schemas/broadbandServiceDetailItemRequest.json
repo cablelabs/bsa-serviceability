@@ -5,7 +5,7 @@
   "description": "Details of an broadband service. These details are used for Serviceability Requests.",
   "type": "object",
   "required": [
-      "objectType",
+      "objectType"
   ],
   "properties": {
     "id": {
@@ -75,8 +75,8 @@
     "objectType": {
       "type": "string",
       "required": true,
-      "description": "Identifies the specific type of object being represented. In this case, broadbandServiceDetailRequest.",
-      "default": "broadbandServiceDetailRequest"
+      "description": "Identifies the specific type of object being represented. In this case, broadbandServiceDetailItemRequest.",
+      "default": "broadbandServiceDetailItemRequest"
     }
   }
 }

@@ -10,17 +10,17 @@
     "pricing"
   ],
   "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the Product Specification.",
+      "maxLength": 25
+    },
     "objectType": {
       "type": "string",
       "enum": [
         "quote"
       ],
       "description": "The type of the object, quote."
-    },
-    "id": {
-      "type": "string",
-      "description": "Unique identifier for the Product Specification.",
-      "maxLength": 25
     },
     "pricing": {
       "type": "array",

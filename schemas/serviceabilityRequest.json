@@ -88,6 +88,16 @@
     "serviceDetail": {
       "$ref": "serviceDetailRequest.json#",
       "description": "Details of the service capabilities being requested."
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "The date object was created formatted as  YYYY-MM-DD (eg 1997-07-16) or YYYY-MM-DDThh:mmTZD (eg 1997-07-16T19:20+01:00)."
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "The date object was last upldated formatted as  YYYY-MM-DD (eg 1997-07-16) or YYYY-MM-DDThh:mmTZD (eg 1997-07-16T19:20+01:00)."
     }
   }
 }

@@ -59,8 +59,8 @@
     "objectType": {
       "type": "string",
       "required": true,
-      "description": "Identifies the specific type of object being represented. In this case, ethernetServiceDetailRequest.",
-      "default": "ethernetServiceDetailRequest"
+      "description": "Identifies the specific type of object being represented. In this case, ethernetServiceDetailItemRequest.",
+      "default": "ethernetServiceDetailItemRequest"
     },
     "enniRequired": {
       "type": "boolean",

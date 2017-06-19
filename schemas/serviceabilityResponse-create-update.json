@@ -8,21 +8,38 @@
       "serviceabilityRequestId",
       "buyerId",
       "sellerId",
-      "serviceSite",
+      "serviceSiteInformation",
       "confidence"
   ],
   "properties": {
     "status": {
       "type": "string",
+      "description": " The states used to convey Serviceability Response Status. Values are: {DRAFT, UNDER_REVIEW, RESPONSE_SUBMITTED, ACCEPTED, COMPLETE, REJECTED}. ",
       "enum": [
         "DRAFT",
         "UNDER_REVIEW",
-        "SUBMITTED",
+        "RESPONSE_SUBMITTED",
         "ACCEPTED",
-        "COMPLETE",
+        "COMPLETED",
         "REJECTED"
-      ],
-      "description": "The states used to convey Serviceability Request Status."
+      ]
+    },
+    "mpoeOnly": {
+      "type": "boolean",
+      "description": "Indicates if access to the location is currenly Minimum Point Of Entry (MPOE) only. If mpoeOnly is true, this indicates that full access to the location (e.g. sub-unit or suite) has not yet been established. If mpoeOnly is false or not defined, this indicates that full access to the location has been (or will be) established."
+    },
+    "expirationDate": {
+      "type": "string",
+      "format": "date-time",
+      "description": "The date the Serviceability Response expires, formatted as  YYYY-MM-DD (eg 1997-07-16) or YYYY-MM-DDThh:mmTZD (eg 1997-07-16T19:20+01:00)."
+    },
+    "perfectMatch": {
+      "type": "boolean",
+      "description": "Indicates that this response matches exactly the details on the associated serviceability request. This can be useful in differentiating serviceability responses that are upsell or alternatives to the original request. "
+    },
+    "accepted": {
+      "type": "boolean",
+      "description": "Indicates if Serviceability Request is accepted. If accepted is true, this indicates the Serviceability Request is accepted."
     },
     "serviceabilityRequestId": {
       "type": "string",
@@ -39,20 +56,11 @@
       "description": "An organization that provides products and services to a buyer. Specifically, the ID of the Partner/Access Provider (Seller) organization receiving the serviceability request.",
       "maxLength": 25
     },
-    "mpoeOnly": {
-      "type": "boolean",
-      "description": "Indicates if access to the location is currenly Minimum Point Of Entry (MPOE) only. If mpoeOnly is true, this indicates that full access to the location (e.g. sub-unit or suite) has not yet been established. If mpoeOnly is false or not defined, this indicates that full access to the location has been (or will be) established."
-    },
-    "expirationDate": {
-      "type": "string",
-      "format": "date-time",
-      "description": "The date the Serviceability Response expires, formatted as  YYYY-MM-DD (eg 1997-07-16) or YYYY-MM-DDThh:mmTZD (eg 1997-07-16T19:20+01:00)."
-    },
-    "serviceSite": {
+    "serviceSiteInformation": {
       "$ref": "serviceSiteInformation.json#",
       "description": "The service site information for the serviceability request."
     },
-    "serviceabilityConfidence": {
+    "confidence": {
       "$ref": "serviceabilityConfidence.json#",
       "description": "Serviceability confidence from seller for this request."
     },
@@ -62,9 +70,28 @@
       "minimum": 0,
       "maximum": 999
     },
-    "productSpecification": {
-        "$ref": "productSpecification.json#",
-        "description": "Details of the product specification and associated pricing (offerings) returned with the response."
+    "buyerProjectId": {
+      "type": "string",
+      "description": "The project's unique identifier for the buyer project.  An identifier that is used to group Orders that represent a unit of functionality that is important to a buyer. A project can be used to relate multiple orders together."
+    },
+    "sellerProjectId": {
+      "type": "string",
+      "description": "The project's unique identifier for a seller project.  An identifier that is used to group Orders that represent a unit of functionality that is important to a buyer. A project can be used to relate multiple orders together."
+    },
+    "siteListId": {
+      "type": "string",
+      "description": "The Projects Site List this SRP belongs to"
+    },
+    "buyerSiteId": {
+      "type": "string",
+      "description": "The Projects Site this SRP belongs to"
+    },
+    "orderDependent": {
+      "type": "boolean"
+    },
+    "serviceDetail": {
+      "$ref": "serviceDetailResponse.json#",
+      "description": " A response to the serviceability request that contains information about one or more Product Specifications that can be ordered to realize the desired service. "
     }
   }
 }
