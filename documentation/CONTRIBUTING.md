@@ -26,6 +26,6 @@ Some useful resources to get started:
 - [serviceability license][5]
 
 [4]: ../README.md
-[5]: LICENSE
+[5]: ../LICENSE
 
 Questions? Just send us an email at btech@cablelabs.com.
