@@ -1,8 +1,11 @@
 {
   "objectType": "serviceabilityResponse",
-  "id": "SRR-CC-726349",
+  "id": "SRP-CC-726349",
   "link": {
-    "href": "/api/serviceability-requests/SRR-CC-726349"
+    "href": "/api/serviceability-response/SRP-CC-726349",
+    "rel": "self",
+    "method": "get",
+    "type": "json"
   },
   "status": "UNDER_REVIEW",
   "projectId": "PRJ-CC-12345678",

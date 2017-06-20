@@ -2,7 +2,10 @@
   "objectType": "serviceabilityRequest",
   "id": "SRQ-CC-13043135",
   "link": {
-    "href": "/api/serviceability-requests/SRQ-CC-13043135"
+    "href": "/api/serviceability-requests/SRQ-CC-13043135",
+    "rel": "self",
+    "method": "get",
+    "type": "json"
   },
   "buyerId": "Comcast",
   "sellerId": "Cox",

@@ -1,6 +1,12 @@
 {
   "objectType": "serviceabilityRequest",
   "id": "SRQ-YY-8698522025538-1542",
+  "link": {
+    "href": "/api/serviceability-requests/SRQ-YY-8698522025538-1542",
+    "rel": "self",
+    "method": "get",
+    "type": "json"
+  },
   "status": "SUBMITTED",
   "buyerId": "BuyerName",
   "sellerId": "SellerName",
