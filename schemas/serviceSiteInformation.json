@@ -18,12 +18,16 @@
             ],
             "description": "The type of the object, serviceSiteInformation."
         },
-        "siteName": {
+        "id": {
+          "type": "string",
+          "description": "An identifier for the service site."
+        },
+        "name": {
             "type": "string",
             "description": "A name by which the service site is known.",
             "maxLength": 60
         },
-        "siteDescription": {
+        "description": {
             "type": "string",
             "description": "A description for the service site.",
             "maxLength": 300
